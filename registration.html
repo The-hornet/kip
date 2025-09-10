@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+     
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> kilai special 
+        </title>
+</head>
+<body>
+        <form>
+     <p>
+<h1><strong>Kapkilaibei Student registration form</strong></h1> </p>
+<p>Welcome to our students registration portal, kindly fill your personal details down below as required!  </p>
+<p>Name:<br> <input type="text" name="text"  required placeholder="
+        John Terry"></p>
+
+<p>Contacts: <br><input type="tel" name= "tel" required> </p>
+<p>Email:<br><input type="email" name="email" required></p>
+<p>D.O.B<br> <input type="date" name="date"required></p>
+
+<p>Gender:<label> <input type="radio" name="gender" value="male">male </label>
+<label><input type="radio" name="gender" value="male">female</label>
+<label><input type="radio" name="gender" value="male">other </label></p>
+
+<p><label for="browser"required>Course</label><br>
+<select>
+    <option  value="text"> Diploma</option> 
+    <option value="text">Degree</option>  
+    <option value="text">Masters</option>
+</select>
+</p>
+<p>Passport photo<label for="attachment"></label><br>
+ <input type="file" name="attachment"required></p>
+<p>
+        <p>Parent/Guardian name:<br> <input type="text" name="text"required ><br>Contacts: <br><input type="tel" name="tel" > </p>   
+        <p><button>Terms of <br>Service</button></p>   
+<P> Do you agree with the Terms and Conditions <br><input type="checkbox" name="c"required></P>
+<p><input type="submit" name="submit"> </p>
+</form>
+</body>
+</html>
